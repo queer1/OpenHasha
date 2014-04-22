@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B756642B190711D100FA4E12 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B7566429190711D100FA4E12 /* Credits.rtf */; };
+		B756642E190711DB00FA4E12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B756642C190711DB00FA4E12 /* MainMenu.xib */; };
+		B76EF515190708F0006B06E6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B76EF513190708F0006B06E6 /* LICENSE */; };
+		B76EF516190708F0006B06E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B76EF514190708F0006B06E6 /* README.md */; };
+		B7B5C89B178B78DA0083DCB9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B5C89A178B78DA0083DCB9 /* Cocoa.framework */; };
+		B7B5C8A7178B78DA0083DCB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B5C8A6178B78DA0083DCB9 /* main.m */; };
+		B7B5C8AE178B78DA0083DCB9 /* OpenHashaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B5C8AD178B78DA0083DCB9 /* OpenHashaAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B756642719070FB400FA4E12 /* OpenHasha-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "OpenHasha-Info.plist"; path = "OpenHasha/OpenHasha-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B756642A190711D100FA4E12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B756642D190711DB00FA4E12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B76EF513190708F0006B06E6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B76EF514190708F0006B06E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B7B5C897178B78DA0083DCB9 /* OpenHasha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHasha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B5C89A178B78DA0083DCB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B7B5C89D178B78DA0083DCB9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B7B5C89E178B78DA0083DCB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B7B5C89F178B78DA0083DCB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7B5C8A6178B78DA0083DCB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7B5C8A8178B78DA0083DCB9 /* OpenHasha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenHasha-Prefix.pch"; sourceTree = "<group>"; };
+		B7B5C8AC178B78DA0083DCB9 /* OpenHashaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenHashaAppDelegate.h; sourceTree = "<group>"; };
+		B7B5C8AD178B78DA0083DCB9 /* OpenHashaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenHashaAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B5C894178B78DA0083DCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B5C89B178B78DA0083DCB9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7B5C88E178B78DA0083DCB9 = {
+			isa = PBXGroup;
+			children = (
+				B76EF513190708F0006B06E6 /* LICENSE */,
+				B76EF514190708F0006B06E6 /* README.md */,
+				B7B5C8A0178B78DA0083DCB9 /* OpenHasha */,
+				B7B5C899178B78DA0083DCB9 /* Frameworks */,
+				B7B5C898178B78DA0083DCB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B5C898178B78DA0083DCB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5C897178B78DA0083DCB9 /* OpenHasha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B5C899178B78DA0083DCB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5C89A178B78DA0083DCB9 /* Cocoa.framework */,
+				B7B5C89C178B78DA0083DCB9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7B5C89C178B78DA0083DCB9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5C89D178B78DA0083DCB9 /* AppKit.framework */,
+				B7B5C89E178B78DA0083DCB9 /* CoreData.framework */,
+				B7B5C89F178B78DA0083DCB9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B7B5C8A0178B78DA0083DCB9 /* OpenHasha */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5C8AC178B78DA0083DCB9 /* OpenHashaAppDelegate.h */,
+				B7B5C8AD178B78DA0083DCB9 /* OpenHashaAppDelegate.m */,
+				B756642C190711DB00FA4E12 /* MainMenu.xib */,
+				B7B5C8A1178B78DA0083DCB9 /* Supporting Files */,
+			);
+			path = OpenHasha;
+			sourceTree = "<group>";
+		};
+		B7B5C8A1178B78DA0083DCB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B756642719070FB400FA4E12 /* OpenHasha-Info.plist */,
+				B7566429190711D100FA4E12 /* Credits.rtf */,
+				B7B5C8A6178B78DA0083DCB9 /* main.m */,
+				B7B5C8A8178B78DA0083DCB9 /* OpenHasha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B5C896178B78DA0083DCB9 /* OpenHasha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B5C8B4178B78DA0083DCB9 /* Build configuration list for PBXNativeTarget "OpenHasha" */;
+			buildPhases = (
+				B7B5C893178B78DA0083DCB9 /* Sources */,
+				B7B5C894178B78DA0083DCB9 /* Frameworks */,
+				B7B5C895178B78DA0083DCB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenHasha;
+			productName = Hasha;
+			productReference = B7B5C897178B78DA0083DCB9 /* OpenHasha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B5C88F178B78DA0083DCB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OpenHasha;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cai;
+			};
+			buildConfigurationList = B7B5C892178B78DA0083DCB9 /* Build configuration list for PBXProject "OpenHasha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7B5C88E178B78DA0083DCB9;
+			productRefGroup = B7B5C898178B78DA0083DCB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B5C896178B78DA0083DCB9 /* OpenHasha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B5C895178B78DA0083DCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B756642B190711D100FA4E12 /* Credits.rtf in Resources */,
+				B756642E190711DB00FA4E12 /* MainMenu.xib in Resources */,
+				B76EF516190708F0006B06E6 /* README.md in Resources */,
+				B76EF515190708F0006B06E6 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B5C893178B78DA0083DCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B5C8A7178B78DA0083DCB9 /* main.m in Sources */,
+				B7B5C8AE178B78DA0083DCB9 /* OpenHashaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7566429190711D100FA4E12 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B756642A190711D100FA4E12 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B756642C190711DB00FA4E12 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B756642D190711DB00FA4E12 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7B5C8B2178B78DA0083DCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7B5C8B3178B78DA0083DCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7B5C8B5178B78DA0083DCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenHasha/OpenHasha-Prefix.pch";
+				INFOPLIST_FILE = "OpenHasha/OpenHasha-Info.plist";
+				PRODUCT_NAME = OpenHasha;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7B5C8B6178B78DA0083DCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenHasha/OpenHasha-Prefix.pch";
+				INFOPLIST_FILE = "OpenHasha/OpenHasha-Info.plist";
+				PRODUCT_NAME = OpenHasha;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B5C892178B78DA0083DCB9 /* Build configuration list for PBXProject "OpenHasha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B5C8B2178B78DA0083DCB9 /* Debug */,
+				B7B5C8B3178B78DA0083DCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B5C8B4178B78DA0083DCB9 /* Build configuration list for PBXNativeTarget "OpenHasha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B5C8B5178B78DA0083DCB9 /* Debug */,
+				B7B5C8B6178B78DA0083DCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B5C88F178B78DA0083DCB9 /* Project object */;
+}
